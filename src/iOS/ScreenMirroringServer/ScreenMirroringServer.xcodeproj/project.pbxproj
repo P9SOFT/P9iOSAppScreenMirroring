@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF1F29C00C884375625C43C /* libPods-ScreenMirroringServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCDDE4226907D1C5F8F18F /* libPods-ScreenMirroringServer.a */; };
+		F4B746E526084582006ABB7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B746E426084582006ABB7C /* AppDelegate.swift */; };
+		F4B746E726084582006ABB7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B746E626084582006ABB7C /* SceneDelegate.swift */; };
+		F4B746E926084582006ABB7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B746E826084582006ABB7C /* ViewController.swift */; };
+		F4B746EC26084582006ABB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B746EA26084582006ABB7C /* Main.storyboard */; };
+		F4B746EE26084583006ABB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B746ED26084583006ABB7C /* Assets.xcassets */; };
+		F4B746F126084583006ABB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B746EF26084583006ABB7C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BABCDDE4226907D1C5F8F18F /* libPods-ScreenMirroringServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenMirroringServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3BA94A23F4BB900FC40F5A /* Pods-ScreenMirroringServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenMirroringServer.debug.xcconfig"; path = "Target Support Files/Pods-ScreenMirroringServer/Pods-ScreenMirroringServer.debug.xcconfig"; sourceTree = "<group>"; };
+		E277DCCEC701FD745755EA7C /* Pods-ScreenMirroringServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenMirroringServer.release.xcconfig"; path = "Target Support Files/Pods-ScreenMirroringServer/Pods-ScreenMirroringServer.release.xcconfig"; sourceTree = "<group>"; };
+		F4B746E126084582006ABB7C /* ScreenMirroringServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenMirroringServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B746E426084582006ABB7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B746E626084582006ABB7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4B746E826084582006ABB7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B746EB26084582006ABB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B746ED26084583006ABB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B746F026084583006ABB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B746F226084583006ABB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B746DE26084582006ABB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF1F29C00C884375625C43C /* libPods-ScreenMirroringServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC2D388F7B0E3F0A3A7F376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB3BA94A23F4BB900FC40F5A /* Pods-ScreenMirroringServer.debug.xcconfig */,
+				E277DCCEC701FD745755EA7C /* Pods-ScreenMirroringServer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5DBEDBB4D73E5872940AD37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BABCDDE4226907D1C5F8F18F /* libPods-ScreenMirroringServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B746D826084582006ABB7C = {
+			isa = PBXGroup;
+			children = (
+				F4B746E326084582006ABB7C /* ScreenMirroringServer */,
+				F4B746E226084582006ABB7C /* Products */,
+				6BC2D388F7B0E3F0A3A7F376 /* Pods */,
+				C5DBEDBB4D73E5872940AD37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B746E226084582006ABB7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B746E126084582006ABB7C /* ScreenMirroringServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B746E326084582006ABB7C /* ScreenMirroringServer */ = {
+			isa = PBXGroup;
+			children = (
+				F4B746E426084582006ABB7C /* AppDelegate.swift */,
+				F4B746E626084582006ABB7C /* SceneDelegate.swift */,
+				F4B746E826084582006ABB7C /* ViewController.swift */,
+				F4B746EA26084582006ABB7C /* Main.storyboard */,
+				F4B746ED26084583006ABB7C /* Assets.xcassets */,
+				F4B746EF26084583006ABB7C /* LaunchScreen.storyboard */,
+				F4B746F226084583006ABB7C /* Info.plist */,
+			);
+			path = ScreenMirroringServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B746E026084582006ABB7C /* ScreenMirroringServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B746F526084583006ABB7C /* Build configuration list for PBXNativeTarget "ScreenMirroringServer" */;
+			buildPhases = (
+				99C240757B012F2B5DF1CAD4 /* [CP] Check Pods Manifest.lock */,
+				F4B746DD26084582006ABB7C /* Sources */,
+				F4B746DE26084582006ABB7C /* Frameworks */,
+				F4B746DF26084582006ABB7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenMirroringServer;
+			productName = ScreenMirroringServer;
+			productReference = F4B746E126084582006ABB7C /* ScreenMirroringServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B746D926084582006ABB7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F4B746E026084582006ABB7C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F4B746DC26084582006ABB7C /* Build configuration list for PBXProject "ScreenMirroringServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B746D826084582006ABB7C;
+			productRefGroup = F4B746E226084582006ABB7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B746E026084582006ABB7C /* ScreenMirroringServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B746DF26084582006ABB7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B746F126084583006ABB7C /* LaunchScreen.storyboard in Resources */,
+				F4B746EE26084583006ABB7C /* Assets.xcassets in Resources */,
+				F4B746EC26084582006ABB7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99C240757B012F2B5DF1CAD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenMirroringServer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B746DD26084582006ABB7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B746E926084582006ABB7C /* ViewController.swift in Sources */,
+				F4B746E526084582006ABB7C /* AppDelegate.swift in Sources */,
+				F4B746E726084582006ABB7C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4B746EA26084582006ABB7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B746EB26084582006ABB7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4B746EF26084583006ABB7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B746F026084583006ABB7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B746F326084583006ABB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B746F426084583006ABB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B746F626084583006ABB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3BA94A23F4BB900FC40F5A /* Pods-ScreenMirroringServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQJ5PTP5L7;
+				INFOPLIST_FILE = ScreenMirroringServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.p9soft.ScreenMirroringServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4B746F726084583006ABB7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E277DCCEC701FD745755EA7C /* Pods-ScreenMirroringServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQJ5PTP5L7;
+				INFOPLIST_FILE = ScreenMirroringServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.p9soft.ScreenMirroringServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B746DC26084582006ABB7C /* Build configuration list for PBXProject "ScreenMirroringServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B746F326084583006ABB7C /* Debug */,
+				F4B746F426084583006ABB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B746F526084583006ABB7C /* Build configuration list for PBXNativeTarget "ScreenMirroringServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B746F626084583006ABB7C /* Debug */,
+				F4B746F726084583006ABB7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B746D926084582006ABB7C /* Project object */;
+}
