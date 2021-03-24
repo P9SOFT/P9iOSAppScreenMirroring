@@ -14,6 +14,7 @@
 		F4B746EC26084582006ABB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B746EA26084582006ABB7C /* Main.storyboard */; };
 		F4B746EE26084583006ABB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B746ED26084583006ABB7C /* Assets.xcassets */; };
 		F4B746F126084583006ABB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B746EF26084583006ABB7C /* LaunchScreen.storyboard */; };
+		F4B74707260AE01F006ABB7C /* HJWebsocketDogma.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B74706260AE01F006ABB7C /* HJWebsocketDogma.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		F4B746ED26084583006ABB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B746F026084583006ABB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B746F226084583006ABB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B74706260AE01F006ABB7C /* HJWebsocketDogma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJWebsocketDogma.swift; sourceTree = "<group>"; };
+		F4B7470A260AE2F1006ABB7C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +51,6 @@
 				BB3BA94A23F4BB900FC40F5A /* Pods-ScreenMirroringServer.debug.xcconfig */,
 				E277DCCEC701FD745755EA7C /* Pods-ScreenMirroringServer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				F4B746E326084582006ABB7C /* ScreenMirroringServer */,
+				F4B74705260AE01F006ABB7C /* HJWebsocketDogma */,
 				F4B746E226084582006ABB7C /* Products */,
 				6BC2D388F7B0E3F0A3A7F376 /* Pods */,
 				C5DBEDBB4D73E5872940AD37 /* Frameworks */,
@@ -88,8 +91,18 @@
 				F4B746ED26084583006ABB7C /* Assets.xcassets */,
 				F4B746EF26084583006ABB7C /* LaunchScreen.storyboard */,
 				F4B746F226084583006ABB7C /* Info.plist */,
+				F4B7470A260AE2F1006ABB7C /* Bridging-Header.h */,
 			);
 			path = ScreenMirroringServer;
+			sourceTree = "<group>";
+		};
+		F4B74705260AE01F006ABB7C /* HJWebsocketDogma */ = {
+			isa = PBXGroup;
+			children = (
+				F4B74706260AE01F006ABB7C /* HJWebsocketDogma.swift */,
+			);
+			name = HJWebsocketDogma;
+			path = ScreenMirroringServer/HJWebsocketDogma;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +203,7 @@
 			files = (
 				F4B746E926084582006ABB7C /* ViewController.swift in Sources */,
 				F4B746E526084582006ABB7C /* AppDelegate.swift in Sources */,
+				F4B74707260AE01F006ABB7C /* HJWebsocketDogma.swift in Sources */,
 				F4B746E726084582006ABB7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +361,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.p9soft.ScreenMirroringServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenMirroringServer/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.p9soft.ScreenMirroringServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ScreenMirroringServer/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
